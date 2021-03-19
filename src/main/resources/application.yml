@@ -2,6 +2,8 @@
 server:
   port: 8888
 spring:
+  security:    user:      name: RajTomar
+      password: RajTomar
   cloud:    config:      server:        git:          uri: https://github.com/Raj-Tomar/spring-cloud-config-wa-tolls
           #username: Raj
           #password: RajTomar
